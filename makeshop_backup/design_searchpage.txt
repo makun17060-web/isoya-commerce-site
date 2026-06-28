@@ -1,0 +1,85 @@
+<div class="rightContents" id="search">
+
+	<img src="https://gigaplus.makeshop.jp/makun17060/img/all_item.png" alt="商品一覧/検索">
+
+	<div class="section" id="r_searchName">
+		<p class="searchResult">[SEARCHNAME]で検索した結果</p>
+	</div>
+
+	<div class="section" id="r_searchInput">
+        <table>
+        <tr>
+            <th>カテゴリー</th>
+            <td id="searchCategory">[CATEGORY][SUB_CATEGORY]</td>
+            <th>キーワード</th>
+            <td id="searchBrand">[BRANDNAME] </td>
+            <th>価格帯</th>
+            <td id="searchPrice">[MINPRICE]〜[MAXPRICE]</td>
+        </tr>
+        <tr>
+            <th>製造元</th>
+            <td id="searchProduct">[PRODUCT]</td>
+            <th>詳細内容</th>
+            <td id="searchContent">[CONTENT]</td>
+            <th>独自商品コード</th>
+            <td id="searchCode">[ORIGINALCODE]</td>
+        </tr>
+        </table>
+        
+        <div class="btnWrap"><a href=[OK]><img src="/images/original_design_default/samplesource/3/r_searchBtn.png" alt="検索"></a></div>
+    </div>
+
+	<div class="section clear" id="r_resultInfo">
+		<p class="total">全[TOTAL]件</p>
+		<ul class="listSort clear">
+        	<li>並び替え：</li>
+            <li><a href=[SORTPRICE]>価格</a></li>
+            <li><a href=[SORTBRANDNAME]>商品名</a></li>
+            <li><a href=[SORTPRODUCT]>製造元</a></li>
+		</ul>
+    </div>
+
+	<div class="section" id="r_searchList">
+    	<ul class="innerList clear">
+		[SEARCH_RESULT]
+        <li>
+			<div class="innerBox">
+				<div class="imgWrap">
+					<a href=[ITEMDETAIL_URL]>[IMAGE_M]</a>
+				</div>
+				<div class="detail">
+					<p class="name"><a href=[ITEMDETAIL_URL]>[ITEM_NAME]</a></p>
+                    <p class="price">[ITEM_PRICE] </p>
+                    <div class="else">
+                    	<ul class="clear">
+                        	<li>[MAKER]</li>
+                            <li>[ORIGINAL]</li>
+                            <li>[UBRANDCODE]</li>
+                        </ul>
+                    </div>
+                    <div class="btnWrap">
+                        [IF_STOCK]<a href=[GETBASKET]><img src="/images/original_design_default/samplesource/3/r_s_basketBtn.png" alt="カートに入れる"></a>[ENDIF_STOCK]
+                        [IF_NOSTOCK]<p class="soldout">品切れ</p>[ENDIF_NOSTOCK]
+                        [IF_OPTION]
+                        <a href=[GETBASKET]><img src="/images/original_design_default/samplesource/3/r_s_basketBtn.png" alt="カートに入れる"></a>
+                        [ENDIF_OPTION] 
+                    </div>
+				</div>
+        	</div>
+		</li> 
+        
+        [/SEARCH_RESULT]
+        </ul>
+	</div>
+
+
+	<div class="section" id="r_pager">
+	[PAGER]
+    </div>
+
+
+	<!--下段メニュータイプを左側メニュー除外選択時にフッターを表示-->
+	[SHOPINFO]
+
+
+</div>

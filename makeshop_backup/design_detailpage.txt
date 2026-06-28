@@ -1,0 +1,135 @@
+<div class="rightContents" id="detail">
+	<p class="pankuzu"><a href="/index.html">トップ</a>  > [LIST_NO_ICON]</p>
+
+    <ul class="clear" id="itemLink">
+    	[IF_PREV]<li class="item_prev"><a href=[PREV]>前の商品</a></li>[ENDIF_PREV]
+        [IF_NEXT]<li class="item_next"><a href=[NEXT]>次の商品</a></li>[ENDIF_NEXT]
+    </ul>
+
+  <!--追加商品説明文-->
+  <div class="section" id="r_detailExt">
+      <div class="detailExtTxt">[DETAIL_EXT]</div>
+  </div>
+
+	<div class="section clear" id="r_detailWrap">
+
+        <div id="itemImg">
+            [IMAGE]
+            [IF_VIEWBUTTON]<div id="viewButton"><a href=[VIEWBUTTON]><img src="/images/original_design_default/samplesource/3/r_viewBtn.png" alt="拡大画像"></a></div>[ENDIF_VIEWBUTTON]
+        </div>
+
+        <div id="itemInfo">
+            <h2>[BRANDNAME]</h2>
+
+            <div class="detailTxt">[DETAIL]</div>
+
+        	<div id="detailInfo">
+            [INFO]
+            </div>
+
+            <!--原産地の設定時に表示--><p class="original">[ORIGINAL]</p>
+
+            <!--GMOとくとくポイント率画像表示-->[TOKURESERVE]</p>
+
+            <!--会員グループの配送料、または通常の配送料を表示-->
+            [IFGROUP]<p><a href=[HAISOU_LINK]>[GROUP_HAISOU]</a></p>
+            [IFELSEGROUP]<p><a href=[HAISOU_LINK]>[HAISOU]</a></p>
+            [IFENDGROUP]
+
+            <div id="basketBtn">
+                [IF]<a href=[GETBASKET]><img src="/images/original_design_default/samplesource/3/r_basketBtn.png" alt="かごに入れる"></a>
+                <a href=[SUGU]><img src="/images/original_design_default/samplesource/3/r_buyBtn.png" alt="すぐに購入"></a>[END]
+                [ELSE]<p class="soldout">品切れ</p>[ENDIF]
+                <!--再入荷お知らせ-->[IF_RESTOCK]<div id="restockSend"><a href=[RESTOCK]>再入荷お知らせ</a></div>[ENDIF_RESTOCK]
+            </div>
+
+            <div class="section clear" id="r_contact">
+                <ul>
+                    <li><a href=[WISHLIST]><img src="/images/original_design_default/samplesource/3/r_wishlistBtn.png" alt="お気に入りリスト"></a></li>
+                    <li><a href=[QUESTION_MAIL]><img src="/images/original_design_default/samplesource/3/r_contactBtn.png" alt="商品についての問い合わせ"></a></li>
+				</ul>
+            </div>
+
+			<div class="section clear" id="r_sns">
+                <ul>
+                    <li><a href=[TWITTER]>この商品についてつぶやく</a></li>
+                    <li>[TWITTER_BUTTON_1] </li>
+                    <li>[FACEBOOK_BUTTON_1_N_1_1_30_440]</li>
+                    <li>[MIXI_CHECK_1]</li>
+                    <li>[MIXI_GOOD_Y]</li>
+                </ul>
+			</div>
+
+    	</div>
+    </div>
+
+	<!--追加商品画像と説明文-->
+
+    <div class="section" id="r_addImg">
+    <ul class="clear">
+        [IF_ITEMIMAGE_1]
+        <li id="addImg01">
+        	<div class="inner">
+                <div class="addImg"><a href=[ITEMIMAGE_VIEW_1]><img src=[ITEMIMAGE_1_M]></a></div>
+                <p class="addTxt">[ITEMCAPTION_1]</p>
+            </div>
+        </li>
+        [ENDIF_ITEMIMAGE_1]
+        [IF_ITEMIMAGE_2]
+        <li id="addImg02">
+        	<div class="inner">
+                <div class="addImg"><a href=[ITEMIMAGE_VIEW_2]><img src=[ITEMIMAGE_2_M]></a></div>
+                <p class="addTxt">[ITEMCAPTION_2]</p>
+            </div>
+        </li>
+        [ENDIF_ITEMIMAGE_2]
+        [IF_ITEMIMAGE_3]
+        <li id="addImg03">
+        	<div class="inner">
+                <div class="addImg"><a href=[ITEMIMAGE_VIEW_3]><img src=[ITEMIMAGE_3_M]></a></div>
+                <p class="addTxt">[ITEMCAPTION_3]</p>
+           	</div>
+        </li>
+        [ENDIF_ITEMIMAGE_3]
+    </ul>
+    </div>
+
+
+	<!--レビュー-->
+        [IF_REVIEW]
+	 <div class="bnr_block">
+	   <img src="https://gigaplus.makeshop.jp/makun17060/img/bnr_review.jpg" alt="レビューを書いて50ptプレゼント">
+	 </div>
+	 
+	 <p class="review_description">商品のご感想を各商品ページのレビュー欄にお寄せください。感謝の気持ちとして投稿したレビューが採用されると1レビューにつき50ポイントプレゼントさせていただきます。</p>
+	 
+	 <ul class="review_notice">
+	   <li>ご注文商品ひとつに対して、1件のみレビューをお願いいたします。</li>
+	   <li>複数レビューを記載頂いた場合は、ポイント付与対象外となります。</li>
+	   <li>ポイントをためるには、ログインした状態でのお買い物やレビュー記載が必要となります。</li>
+	 </ul>
+        <div class="section" id="r_review">
+        <h3><img src="https://gigaplus.makeshop.jp/makun17060/img/t_tit_review.png" alt="この商品についてのレビュー" class="m_title"></h3>
+        [REVIEW_WRITE]
+        <a href=[REVIEW_BUTTON] class="M_btnStyle"><img src="/images/original_design_default/samplesource/3/writeReviewBtn.png" alt="レビューを書く"></a>
+        <div class="section" id="m_reviewView">
+        [REVIEW_VIEW]
+        </div>
+    </div>
+    [ENDIF_REVIEW]
+
+    <!--商品グループ-->
+	<div class="section" id="r_group">
+	[BRANDGROUP]
+    </div>
+
+	<!--最近チェックした商品-->
+	[IF_RECENT]
+        <div class="section" id="r_recent">
+        <h3><img src="/design/makun17060/recent_title.gif" alt="最近チェックした商品" class="m_title"></h3>
+        [RECENT]
+        </div>
+	[ENDIF_RECENT]
+
+
+</div>

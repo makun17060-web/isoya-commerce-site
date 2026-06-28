@@ -1,0 +1,12 @@
+<tr><td><!--Êø¤ìËÉ»ß-->
+
+<div class="rightContents" id="news">
+	<img src="https://gigaplus.makeshop.jp/makun17060/img/oshirase.png" alt="¤ªÃÎ¤é¤»">
+
+    <div class="section" id="r_news">
+		<div id="newsList">
+        [LISTING]
+        </div>
+		<div id="pager">[PAGING]</div>
+	</div>   
+</div>

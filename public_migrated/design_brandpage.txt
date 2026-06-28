@@ -1,0 +1,78 @@
+<div class="rightContents" id="category">
+
+    <p class="pankuzu"><a href="/index.html">トップ</a>  > [LIST]</p>
+
+    <h2>[NAMECURRENT]</h2>
+
+    <!--カテゴリー別イメージの登録】でカテゴリーイメージ画像が設定されている場合は、囲まれた内容を表示します-->
+    [IF_CATEGORY_IMAGE_URL]
+    <div class="section" id="r_categoryImg">
+    <img src="[CATEGORY_IMAGE_URL]" alt="[NAME]" class="M_categoryImage">
+    </div>
+    [ENDIF_CATEGORY_IMAGE_URL]
+
+    <!--サブカテゴリーがある場合-->
+    <div class="section" id="r_subGroup">
+    [GROUP4_1]
+    </div>
+
+    <!--カテゴリーのおすすめ商品-->
+    <div class="section" id="r_categoryRecommend">
+    [SUISEN3_2]
+    </div>
+
+    <div class="section clear" id="r_resultInfo">
+        <p class="total">全[TOTAL]件</p>
+        <ul class="listSort">
+            <li>並び替え：</li>
+            <li><a href=[NEWSORT]>新着</a></li>
+            <li><a href=[SORTPRICE]>価格</a></li>
+            <li><a href=[SORTBRANDNAME]>商品名</a></li>
+            <li><a href=[SORTPRODUCT]>製造元</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="r_categoryList">
+    [PRODUCTION_START]
+        <ul class="innerList">
+        [PRODUCTION_ITEM4_START]
+            <li class="[ADDCLASS]">
+                <div class="innerBox">
+                    <div class="imgWrap">
+                        <a href="[BRAND_URL]"><img alt="[BRANDNAME]" src="[IMAGE_URL]" align="middle" border="0"></a>
+                    </div>
+                    <div class="detail">
+                        <div class="icon">[ICON]</div>
+                        <p class="name">[NEWICON]<a href="[BRAND_URL]">[BRANDNAME]</a></p>
+                        <p class="price"><em class="price">[COMMONPRICE]</em></p>
+                        [IF_MATOMEGAI]
+                        <p class="matomegai"><a href="[MATOMEGAI_URL]">[MATOMEGAI]</a></p>
+                        [ENDIF_MATOMEGAI]
+                        <div class="else">
+                            <ul class="clear">
+                                <li>[PRODUCTION]</li>
+                                <li>[ORIGINAL]</li>
+                                <li>[UBRANDCODE]</li>
+                             </ul>
+                        </div>
+                        <p>[ADDCODE]</p>
+                        <div class="content">[DETAIL]</div>
+
+                        <p class="quantity">[ZAIKO]</p>
+                        <div class="btnWrap">
+                        [IF]<a href=[BASKET]><img src="/images/makeshop/6d73e72f-r_c_basketBtn.png" alt="カートに入れる"></a><a href=[SUGU]><img src="/images/makeshop/163bb274-r_c_buyBtn.png" alt="すぐに購入"></a>[END][ELSE]<p class="soldout">品切れ</p>[ENDIF]
+                        </div>
+                        <a href=[WISHLIST]><img src="/images/makeshop/ce0d6890-r_wishlistBtn.png" alt="お気に入りリスト"></a>
+                    </div>
+                </div>
+            </li>
+            [PRODUCTION_ITEM_END]
+        </ul>
+    [PRODUCTION_END]
+    </div>
+
+
+    [PAGER]
+
+
+</div>

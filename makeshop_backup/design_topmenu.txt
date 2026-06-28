@@ -1,0 +1,85 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>
+//ページトップに戻る
+$(function() {
+    var topBtn = $('.pageTop');    
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+
+</script>
+
+<div id="wrap">
+<div id="headerWrap">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129515784-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129515784-1');
+</script>
+
+		<div id="headerTop">
+			<h1>お中元、お歳暮に磯屋のえびせんべいをぜひどうぞ</h1>
+			<!--ヘッダ小ナビゲーション-->
+			<ul id="subNav">
+				<li id="subNav-member"><a href=[MEMBER]>会員登録</a></li>
+				<li id="subNav-login">[LOGINTYPEZ]</li>
+				<li id="subNav-mypage"><a href=[MYPAGE]>マイページ</a></li>
+				<li id="subNav-search" class="clear"> [TOP_SEARCH_INPUT][TOP_SEARCH_BUTTON]</li>
+			</ul>
+		</div>
+	<!-- ロゴとガイドの並び -->
+	<div id="header">
+		<div id="head" class="clear">
+			<div id="h_logo">
+				<a href=[HOME]><img src="https://gigaplus.makeshop.jp/makun17060/logo/isoya9.png" alt="磯屋 手造りえびせんびい オンラインショップ"></a>
+			</div>
+			<div id="h_right" class="clear">
+				<div class="header_guide payment">
+					<img src="https://gigaplus.makeshop.jp/makun17060/logo/20231115.png" alt="決済方法は銀行振込、郵振替、代金引換、クレジット決済、コンビニ決済から選べます">
+				</div>
+				<li class="header_guide accept">
+					<p class="tel">0120-658-966</p>
+					<p classs="clear">
+					<span class>　受付時間</span>
+					      <span class>９：００〜１７：００<br>（日、祝、お盆、年末年始を除く）</span>
+					</p>
+				</li>
+				<div class="header_guide cart">
+					[CART_INSIDE1]
+				</div>
+			</div>
+		</div>
+		<!--//header-->
+	</div>
+	<!---ナビゲーション-->
+			<ul id="gNav" class="clear">
+				<li id="gNav_home"><a href=[HOME]>トップページ</a></li>
+				<li id="gNav_all"><a href=[ALL_VIEW]>商品一覧</a></li>
+				<li id="gNav_company"><a href=[COMPANY]>会社概要</a></li>
+				<li id="gNav_useinfo"><a href=[USEINFO]>ご利用案内</a></li>
+				<li id="gNav_mail"> <a href=[EMAIL]>お問合わせ</a></li>
+			</ul>
+</div>
+<div id="topImage">
+	[TOPIMAGE]
+</div>
+<div id="wrapper">

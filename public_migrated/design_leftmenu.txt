@@ -1,0 +1,36 @@
+<div id="leftContents">
+
+	<div class="section" id="l_category">
+       <div id="leftContents">
+    	<h2><img src="/images/makeshop/8bd1436e-l_tit_category.png" alt="カテゴリー"></h2>
+        <div class="inner">
+	   [CATEGORY_MENU_2]
+           <!--[LIST_0_180]  -->
+        </div>
+	</div>
+   
+   	<div class="section" id="l_member">
+		<a href="https://lin.ee/QJ61Cb3"><img src="/images/makeshop/4ab53150-line1.png" alt="会員登録はこちらからどうぞ"></a>
+	</div>
+　　　
+	<div class="section">
+		<a href="/html/company.html"><img src="/images/makeshop/897fa56f-pc_bnr_side1.jpg" alt="手造りえびせんべい 磯屋について"></a>
+	</div>
+
+	<div class="section">
+		<a href="/shopdetail/000000000021"><img src="/images/makeshop/94d48f20-side_banner_180x100_fixed.png" alt="お試しセット 2,000円(税抜) 送料無料"></a>
+	</div>
+
+	<div class="section" id="l_calendar">
+        [CALENDAR_DATE]
+        [CALENDAR]
+        [CALENDAR_DATE2]
+        [CALENDAR2]	
+    </div>
+
+
+<!--計測用タグ-->
+[COUNTER]
+</div>
+
+</div>

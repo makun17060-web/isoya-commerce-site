@@ -1,0 +1,608 @@
+[
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_basketUp.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_basketUp.png",
+    "local": "/images/makeshop/68489c50-r_basketUp.png",
+    "file": "68489c50-r_basketUp.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_basketDown.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_basketDown.png",
+    "local": "/images/makeshop/5897a3cc-r_basketDown.png",
+    "file": "5897a3cc-r_basketDown.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_basketAmendBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_basketAmendBtn.png",
+    "local": "/images/makeshop/80aab619-r_basketAmendBtn.png",
+    "file": "80aab619-r_basketAmendBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_basketWishBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_basketWishBtn.png",
+    "local": "/images/makeshop/c104e082-r_basketWishBtn.png",
+    "file": "c104e082-r_basketWishBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_basketDelBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_basketDelBtn.png",
+    "local": "/images/makeshop/478d738a-r_basketDelBtn.png",
+    "file": "478d738a-r_basketDelBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_goShoppingBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_goShoppingBtn.png",
+    "local": "/images/makeshop/b817320e-r_goShoppingBtn.png",
+    "file": "b817320e-r_goShoppingBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_basketEmptyBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_basketEmptyBtn.png",
+    "local": "/images/makeshop/239e223d-r_basketEmptyBtn.png",
+    "file": "239e223d-r_basketEmptyBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_goOrderBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_goOrderBtn.png",
+    "local": "/images/makeshop/c095f4fc-r_goOrderBtn.png",
+    "file": "c095f4fc-r_goOrderBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/recent_title.gif",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/recent_title.gif",
+    "local": "/images/makeshop/4390bbab-recent_title.gif",
+    "file": "4390bbab-recent_title.gif"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_topPage_btn.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_topPage_btn.png",
+    "local": "/images/makeshop/0c68009d-f_topPage_btn.png",
+    "file": "0c68009d-f_topPage_btn.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_tit_goriyou.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_tit_goriyou.png",
+    "local": "/images/makeshop/b0e0fc23-f_tit_goriyou.png",
+    "file": "b0e0fc23-f_tit_goriyou.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_guide01.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_guide01.png",
+    "local": "/images/makeshop/547dd617-f_guide01.png",
+    "file": "547dd617-f_guide01.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_guide01_img01.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_guide01_img01.png",
+    "local": "/images/makeshop/2f3d258b-f_guide01_img01.png",
+    "file": "2f3d258b-f_guide01_img01.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_guide04.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_guide04.png",
+    "local": "/images/makeshop/58b24dfb-f_guide04.png",
+    "file": "58b24dfb-f_guide04.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_guide03.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_guide03.png",
+    "local": "/images/makeshop/4ee55021-f_guide03.png",
+    "file": "4ee55021-f_guide03.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/logo/ap_logo-0000.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/logo/ap_logo-0000.jpg",
+    "local": "/images/makeshop/4cb893fa-ap_logo-0000.jpg",
+    "file": "4cb893fa-ap_logo-0000.jpg"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/logo/B10_20170331.jpg300.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/logo/B10_20170331.jpg300.jpg",
+    "local": "/images/makeshop/85e604e2-B10_20170331.jpg300.jpg",
+    "file": "85e604e2-B10_20170331.jpg300.jpg"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/card_visa.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/card_visa.png",
+    "local": "/images/makeshop/5ff553f6-card_visa.png",
+    "file": "5ff553f6-card_visa.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/card_master.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/card_master.png",
+    "local": "/images/makeshop/f64164df-card_master.png",
+    "file": "f64164df-card_master.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/card_jcb.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/card_jcb.png",
+    "local": "/images/makeshop/2bc7b57e-card_jcb.png",
+    "file": "2bc7b57e-card_jcb.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/card_amex.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/card_amex.png",
+    "local": "/images/makeshop/b33f5570-card_amex.png",
+    "file": "b33f5570-card_amex.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/card_dinersclab.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/card_dinersclab.jpg",
+    "local": "/images/makeshop/079e5892-card_dinersclab.jpg",
+    "file": "079e5892-card_dinersclab.jpg"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_guide05.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_guide05.png",
+    "local": "/images/makeshop/74e9c8dd-f_guide05.png",
+    "file": "74e9c8dd-f_guide05.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_guide02.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_guide02.png",
+    "local": "/images/makeshop/51c3ecce-f_guide02.png",
+    "file": "51c3ecce-f_guide02.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_guide06.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_guide06.png",
+    "local": "/images/makeshop/0f3063c9-f_guide06.png",
+    "file": "0f3063c9-f_guide06.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_c_basketBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_c_basketBtn.png",
+    "local": "/images/makeshop/6d73e72f-r_c_basketBtn.png",
+    "file": "6d73e72f-r_c_basketBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_c_buyBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_c_buyBtn.png",
+    "local": "/images/makeshop/163bb274-r_c_buyBtn.png",
+    "file": "163bb274-r_c_buyBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_wishlistBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_wishlistBtn.png",
+    "local": "/images/makeshop/ce0d6890-r_wishlistBtn.png",
+    "file": "ce0d6890-r_wishlistBtn.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/bnr_review.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/bnr_review.jpg",
+    "local": "/images/makeshop/2eb6c2cd-bnr_review.jpg",
+    "file": "2eb6c2cd-bnr_review.jpg"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/t_tit_review.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/t_tit_review.png",
+    "local": "/images/makeshop/3969f086-t_tit_review.png",
+    "file": "3969f086-t_tit_review.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_viewBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_viewBtn.png",
+    "local": "/images/makeshop/80bd3c87-r_viewBtn.png",
+    "file": "80bd3c87-r_viewBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_basketBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_basketBtn.png",
+    "local": "/images/makeshop/39e79c12-r_basketBtn.png",
+    "file": "39e79c12-r_basketBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_buyBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_buyBtn.png",
+    "local": "/images/makeshop/2be01bce-r_buyBtn.png",
+    "file": "2be01bce-r_buyBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_contactBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_contactBtn.png",
+    "local": "/images/makeshop/36a18f5d-r_contactBtn.png",
+    "file": "36a18f5d-r_contactBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/writeReviewBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/writeReviewBtn.png",
+    "local": "/images/makeshop/7ff7c930-writeReviewBtn.png",
+    "file": "7ff7c930-writeReviewBtn.png"
+  },
+  {
+    "original_in_file": "/design/makun17060/recent_title.gif",
+    "download_url": "https://isoya-commerce.com/design/makun17060/recent_title.gif",
+    "local": "/images/makeshop/beea3fea-recent_title.gif",
+    "file": "beea3fea-recent_title.gif"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/closeBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/closeBtn.png",
+    "local": "/images/makeshop/b1057a31-closeBtn.png",
+    "file": "b1057a31-closeBtn.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/l_tit_category.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/l_tit_category.png",
+    "local": "/images/makeshop/8bd1436e-l_tit_category.png",
+    "file": "8bd1436e-l_tit_category.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/line1.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/line1.png",
+    "local": "/images/makeshop/4ab53150-line1.png",
+    "file": "4ab53150-line1.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/pc_bnr_side1.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/pc_bnr_side1.jpg",
+    "local": "/images/makeshop/897fa56f-pc_bnr_side1.jpg",
+    "file": "897fa56f-pc_bnr_side1.jpg"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/side_banner_180x100_fixed.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/side_banner_180x100_fixed.png",
+    "local": "/images/makeshop/94d48f20-side_banner_180x100_fixed.png",
+    "file": "94d48f20-side_banner_180x100_fixed.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/t_subBnr03.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/t_subBnr03.jpg",
+    "local": "/images/makeshop/ccf5e2a3-t_subBnr03.jpg",
+    "file": "ccf5e2a3-t_subBnr03.jpg"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/banner_buy_now_lower_2200.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/banner_buy_now_lower_2200.png",
+    "local": "/images/makeshop/50763bcf-banner_buy_now_lower_2200.png",
+    "file": "50763bcf-banner_buy_now_lower_2200.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/new_t_subBnr01.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/new_t_subBnr01.png",
+    "local": "/images/makeshop/6b738898-new_t_subBnr01.png",
+    "file": "6b738898-new_t_subBnr01.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/logo/t_subBnr02.jpg.photo.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/logo/t_subBnr02.jpg.photo.jpg",
+    "local": "/images/makeshop/b1e35784-t_subBnr02.jpg.photo.jpg",
+    "file": "b1e35784-t_subBnr02.jpg.photo.jpg"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/pc_bnr1.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/pc_bnr1.jpg",
+    "local": "/images/makeshop/37b4ebf9-pc_bnr1.jpg",
+    "file": "37b4ebf9-pc_bnr1.jpg"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/baibainew.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/baibainew.png",
+    "local": "/images/makeshop/b747ea1f-baibainew.png",
+    "file": "b747ea1f-baibainew.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/t_tit_rank.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/t_tit_rank.png",
+    "local": "/images/makeshop/e21776ee-t_tit_rank.png",
+    "file": "e21776ee-t_tit_rank.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/t_tit_news.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/t_tit_news.png",
+    "local": "/images/makeshop/b56f6c11-t_tit_news.png",
+    "file": "b56f6c11-t_tit_news.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/oshirase.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/oshirase.png",
+    "local": "/images/makeshop/6e7434e9-oshirase.png",
+    "file": "6e7434e9-oshirase.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_newsListBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_newsListBtn.png",
+    "local": "/images/makeshop/12258a46-r_newsListBtn.png",
+    "file": "12258a46-r_newsListBtn.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/all_item.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/all_item.png",
+    "local": "/images/makeshop/7f985008-all_item.png",
+    "file": "7f985008-all_item.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_searchBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_searchBtn.png",
+    "local": "/images/makeshop/d0a9f5d6-r_searchBtn.png",
+    "file": "d0a9f5d6-r_searchBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_s_basketBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_s_basketBtn.png",
+    "local": "/images/makeshop/4029c166-r_s_basketBtn.png",
+    "file": "4029c166-r_s_basketBtn.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/logo/isoya9.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/logo/isoya9.png",
+    "local": "/images/makeshop/0858c51d-isoya9.png",
+    "file": "0858c51d-isoya9.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/logo/20231115.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/logo/20231115.png",
+    "local": "/images/makeshop/68c2cbbc-20231115.png",
+    "file": "68c2cbbc-20231115.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/bg.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/bg.png",
+    "local": "/images/makeshop/921ed37e-bg.png",
+    "file": "921ed37e-bg.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/h_subBnr02.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/h_subBnr02.png",
+    "local": "/images/makeshop/2a564dd6-h_subBnr02.png",
+    "file": "2a564dd6-h_subBnr02.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/h_search_btn.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/h_search_btn.png",
+    "local": "/images/makeshop/2396d728-h_search_btn.png",
+    "file": "2396d728-h_search_btn.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/h_subBnr03.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/h_subBnr03.png",
+    "local": "/images/makeshop/1f1d297e-h_subBnr03.png",
+    "file": "1f1d297e-h_subBnr03.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/h_icon_arrow01.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/h_icon_arrow01.png",
+    "local": "/images/makeshop/6071bf14-h_icon_arrow01.png",
+    "file": "6071bf14-h_icon_arrow01.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav01.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav01.png",
+    "local": "/images/makeshop/4f1f99b5-h_gNav01.png",
+    "file": "4f1f99b5-h_gNav01.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav02.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav02.png",
+    "local": "/images/makeshop/621dc74f-h_gNav02.png",
+    "file": "621dc74f-h_gNav02.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav03.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav03.png",
+    "local": "/images/makeshop/3ad65fae-h_gNav03.png",
+    "file": "3ad65fae-h_gNav03.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav04.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav04.png",
+    "local": "/images/makeshop/8bd12137-h_gNav04.png",
+    "file": "8bd12137-h_gNav04.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav05.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/h_gNav05.png",
+    "local": "/images/makeshop/e3a0b2b0-h_gNav05.png",
+    "file": "e3a0b2b0-h_gNav05.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/l_icon_arrow01.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/l_icon_arrow01.png",
+    "local": "/images/makeshop/ec9db3f8-l_icon_arrow01.png",
+    "file": "ec9db3f8-l_icon_arrow01.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/l_bg.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/l_bg.png",
+    "local": "/images/makeshop/5613888f-l_bg.png",
+    "file": "5613888f-l_bg.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/l_icon_arrow03.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/l_icon_arrow03.png",
+    "local": "/images/makeshop/12c555b3-l_icon_arrow03.png",
+    "file": "12c555b3-l_icon_arrow03.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/l_icon_arrow02.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/l_icon_arrow02.png",
+    "local": "/images/makeshop/0b488cf1-l_icon_arrow02.png",
+    "file": "0b488cf1-l_icon_arrow02.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/plascom/img/icon_arrow04.png",
+    "download_url": "https://gigaplus.makeshop.jp/plascom/img/icon_arrow04.png",
+    "local": "/images/makeshop/7376c293-icon_arrow04.png",
+    "file": "7376c293-icon_arrow04.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon1.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon1.png",
+    "local": "/images/makeshop/428822f2-rankIcon1.png",
+    "file": "428822f2-rankIcon1.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon2.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon2.png",
+    "local": "/images/makeshop/0ce6dc8a-rankIcon2.png",
+    "file": "0ce6dc8a-rankIcon2.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon3.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon3.png",
+    "local": "/images/makeshop/1a48d373-rankIcon3.png",
+    "file": "1a48d373-rankIcon3.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon4.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon4.png",
+    "local": "/images/makeshop/1898534e-rankIcon4.png",
+    "file": "1898534e-rankIcon4.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon6.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon6.png",
+    "local": "/images/makeshop/6dcb666a-rankIcon6.png",
+    "file": "6dcb666a-rankIcon6.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon7.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon7.png",
+    "local": "/images/makeshop/a5e8b462-rankIcon7.png",
+    "file": "a5e8b462-rankIcon7.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon8.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon8.png",
+    "local": "/images/makeshop/8703d650-rankIcon8.png",
+    "file": "8703d650-rankIcon8.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon9.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon9.png",
+    "local": "/images/makeshop/27495bbf-rankIcon9.png",
+    "file": "27495bbf-rankIcon9.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon10.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/rankIcon10.png",
+    "local": "/images/makeshop/e11c344c-rankIcon10.png",
+    "file": "e11c344c-rankIcon10.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/back.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/back.png",
+    "local": "/images/makeshop/5d8cbc23-back.png",
+    "file": "5d8cbc23-back.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_bg01.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_bg01.png",
+    "local": "/images/makeshop/5dc9c916-f_bg01.png",
+    "file": "5dc9c916-f_bg01.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_bg.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_bg.png",
+    "local": "/images/makeshop/35e576b4-f_bg.png",
+    "file": "35e576b4-f_bg.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/img/f_guide06_img01.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/img/f_guide06_img01.png",
+    "local": "/images/makeshop/b7a80c5f-f_guide06_img01.png",
+    "file": "b7a80c5f-f_guide06_img01.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/lp1/pc_lp1_2.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/lp1/pc_lp1_2.jpg",
+    "local": "/images/makeshop/8586755a-pc_lp1_2.jpg",
+    "file": "8586755a-pc_lp1_2.jpg"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/lp1/pc_lp1_4.png",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/lp1/pc_lp1_4.png",
+    "local": "/images/makeshop/fbba1318-pc_lp1_4.png",
+    "file": "fbba1318-pc_lp1_4.png"
+  },
+  {
+    "original_in_file": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/lp1/pc_lp1_5.jpg",
+    "download_url": "https://gigaplus.makeshop.jp/makun17060/lp-20200630/lp1/pc_lp1_5.jpg",
+    "local": "/images/makeshop/e72fd593-pc_lp1_5.jpg",
+    "file": "e72fd593-pc_lp1_5.jpg"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/hNav01.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/hNav01.png",
+    "local": "/images/makeshop/ae41ae63-hNav01.png",
+    "file": "ae41ae63-hNav01.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/hNav01_out.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/hNav01_out.png",
+    "local": "/images/makeshop/5c4175c9-hNav01_out.png",
+    "file": "5c4175c9-hNav01_out.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/listIconR.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/listIconR.png",
+    "local": "/images/makeshop/e9376636-listIconR.png",
+    "file": "e9376636-listIconR.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/poll_b01.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/poll_b01.png",
+    "local": "/images/makeshop/e27b90d3-poll_b01.png",
+    "file": "e27b90d3-poll_b01.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/poll_b02.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/poll_b02.png",
+    "local": "/images/makeshop/14954dc5-poll_b02.png",
+    "file": "14954dc5-poll_b02.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/rankIcon5.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/rankIcon5.png",
+    "local": "/images/makeshop/50b7df5e-rankIcon5.png",
+    "file": "50b7df5e-rankIcon5.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/listIconL.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/listIconL.png",
+    "local": "/images/makeshop/f25abfe5-listIconL.png",
+    "file": "f25abfe5-listIconL.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/titleIcon.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/titleIcon.png",
+    "local": "/images/makeshop/b6990ff4-titleIcon.png",
+    "file": "b6990ff4-titleIcon.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/h3title.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/h3title.png",
+    "local": "/images/makeshop/06f412f4-h3title.png",
+    "file": "06f412f4-h3title.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/r_postBtn.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/r_postBtn.png",
+    "local": "/images/makeshop/507f943b-r_postBtn.png",
+    "file": "507f943b-r_postBtn.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/memberjoin_escape.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/memberjoin_escape.png",
+    "local": "/images/makeshop/5c04c133-memberjoin_escape.png",
+    "file": "5c04c133-memberjoin_escape.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/searchIcon.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/searchIcon.png",
+    "local": "/images/makeshop/9c170525-searchIcon.png",
+    "file": "9c170525-searchIcon.png"
+  },
+  {
+    "original_in_file": "/images/original_design_default/samplesource/3/h2title.png",
+    "download_url": "https://isoya-commerce.com/images/original_design_default/samplesource/3/h2title.png",
+    "local": "/images/makeshop/4932631b-h2title.png",
+    "file": "4932631b-h2title.png"
+  },
+  {
+    "original_in_file": "/design/makun17060/companytitle.gif",
+    "download_url": "https://isoya-commerce.com/design/makun17060/companytitle.gif",
+    "local": "/images/makeshop/36cc27e9-companytitle.gif",
+    "file": "36cc27e9-companytitle.gif"
+  }
+]

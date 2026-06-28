@@ -1,0 +1,13 @@
+<div class="rightContents" id="news">
+	<img src="/images/makeshop/6e7434e9-oshirase.png" alt="お知らせ">
+
+    <div class="section" id="r_news">
+		<div id="newsHead"><span class="date">[DATE]</span>[SUBJECT]</div>
+        <div id="newsContents">
+        	[CONTENT]
+        	<p id="newsAccess">アクセス : [HITS]</p>
+        </div>
+        <p id="newsNext">[NEXT]</p>
+		<div id="newsListBtn"><a href=[LIST]><img src="/images/makeshop/12258a46-r_newsListBtn.png" alt="お知らせ一覧"></a></div>
+	</div>   
+</div>

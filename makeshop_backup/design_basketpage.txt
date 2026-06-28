@@ -1,0 +1,125 @@
+<tr><td><!--崩れ防止-->
+
+<div class="rightContents" id="basket">
+
+    <div class="section" id="r_basket">
+        <table id="basketTable">
+        <tr>
+            <th colspan="3">商品情報</th>
+            <th>数量</th>
+            <th>ポイント</th>
+            <th>価格</th>
+            <th></th>
+        </tr>
+        [IFBASKET]
+        [FORBASKET]
+        <tr>
+            <td class="basketNum">[BASKET_NUM]</td>
+            <td class="basketImg">[BASKET_IMG]</td>
+            <td class="basketName">
+                <p>[BASKET_BRANDNAME][BASKET_ADDCODE1]</p>
+                [IFOPTION]
+                <div class="basketOption">[BASKET_OPTION]</div>
+                [IFENDOPTION]
+                
+                [IFBASKET_MATOMEGAI]
+                <p class="basketMatomegai"><a href="[BASKET_MATOMEGAI_LINK]">[BASKET_MATOMEGAI]</a></p>
+                [IFENDBASKET_MATOMEGAI]
+            </td>
+            <td class="basketQuantity">
+                <div class="quantityWrap">
+                    <div class="quantityInput">
+                        [IFBASKET_NAMEOPTION]
+                        [BASKET_QUANTITY]
+                        [IFELSEBASKET_NAMEOPTION]
+                        [BASKET_QUANTITY]
+                    </div>
+                    <table class="basketQunantity">
+                    <tr>
+                        <td><a href=[BASKET_UPCOUNT]><img src="/images/original_design_default/samplesource/3/r_basketUp.png"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href=[BASKET_DOWNCOUNT]><img src="/images/original_design_default/samplesource/3/r_basketDown.png"></a></td>
+                    </tr>
+                    </table>
+                    <div class="quantityAmend"><a href=[BASKET_UPDATE]><img src="/images/original_design_default/samplesource/3/r_basketAmendBtn.png" alt="修正"></a></div>
+                    [IFENDBASKET_NAMEOPTION]
+                </div>
+            </td>
+            <td class="basketPoint">[BASKET_RESERVE]P</td>
+            <td class="basketPrice">[BASKET_PRICE]円</td>
+            <td class="basketBtns">
+                <a href=[BASKET_GOWISH]><img src="/images/original_design_default/samplesource/3/r_basketWishBtn.png" alt="お気に入りリスト"></a>
+                <a href=[BASKET_DEL]><img src="/images/original_design_default/samplesource/3/r_basketDelBtn.png" alt="削除"></a></td>
+        </tr>
+        [BASKET_NAMEOPTION]
+        [FORENDBASKET]
+        <tr>
+            <td colspan="7" class="basketHaisou">
+                <div class="carriageWrap">
+                    <p class="carriageMsg1">[CARRIAGE_MSG1]</p>
+                    <p class="carriageMsg2">[CARRIAGE_MSG2]</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="7" class="basketTotal">
+                [IF_MATOMEGAI]
+                <dl class="totalWrap matomegaiWrap">
+                    <dt class="totalItem">まとめ買い割引<a href="[MATOMEGAI_LINK]">[詳細を見る]</a>：</dt>    
+                    <dd class="totalPrice">[MATOMEGAI_DISCOUNT]円</dd>
+                </dl>
+                [IFEND_MATOMEGAI]
+                <dl class="totalWrap">
+                    <dt class="totalItem">合計金額：</dt>    
+                    <dd class="totalPrice"><em>[BASKET_TOTALPRICE] (税込)</em></dd>
+                </dl>
+            </td>
+        </tr>
+        [IFELSEBASKET]
+        <tr>
+            <td colspan="7" class="basketEmpty">
+            <p>買い物かごに商品がありません</p>
+            </td>
+        </tr>
+        [IFENDBASKET]  
+        </table> 
+
+        <div class="btnWrap clear">
+            <div class="btnBack">
+                <a href=[GOSHOPPING]><img src="/images/original_design_default/samplesource/3/r_goShoppingBtn.png" alt="買い物に戻る"></a>
+                <a href=[CLEAR_BASKET]><img src="/images/original_design_default/samplesource/3/r_basketEmptyBtn.png" alt="かごの中身を空にする"></a>
+            </div>
+            <div class="btnOrder">
+                <a href=[ORDER]><img src="/images/original_design_default/samplesource/3/r_goOrderBtn.png" alt="購入手続きへ進む"></a>
+                [IFAMAZON]<p class="amazonButtonWrap">[AMAZON_PAY_BUTTON]</p>[IFENDAMAZON]
+            </div>
+        </div>
+        
+    </div>
+    
+    <!--ログイン後使用可能　特別会員-->
+    [IFROYAL]
+    <div class="section" id="r_roralMember">
+        <p class="royalMsg1">[ROYALMESSAGE1]</p>
+        <p class="royalMsg1">[ROYALMESSAGE2]</p>
+    </div>
+    [IFENDROYAL]
+    
+    <!--ログイン後使用可能　お気に入りリスト-->
+  
+
+    
+    <!--最近チェックした商品-->
+    [IF_RECENT]
+        <div class="section" id="r_recent">
+        <h3><img src="/images/original_design_default/samplesource/3/recent_title.gif" alt="最近チェックした商品" class="titleMgn"></h3>
+        [RECENT]
+        </div>
+    [ENDIF_RECENT]
+    
+</div>
+
+</td>
+</tr>
+</table>
