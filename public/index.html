@@ -2,293 +2,156 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>手造りえびせんべい 磯屋</title>
+  <title>公式サイト｜手造りえびせんべい 磯屋</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/makeshop.css">
+  <meta name="description" content="手造りえびせんべい 磯屋の公式サイト。商品紹介とLINE注文のご案内。">
+  <link rel="stylesheet" href="/css/isoya-new.css">
 </head>
 <body>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/">
+      <img src="/images/makeshop/0858c51d-isoya9.png" alt="手造りえびせんべい 磯屋">
+    </a>
 
-<script>
-//ページトップに戻る
-$(function() {
-    var topBtn = $('.pageTop');    
-    topBtn.hide();
-    //スクロールが100に達したらボタン表示
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            topBtn.fadeIn();
-        } else {
-            topBtn.fadeOut();
-        }
-    });
-    //スクロールしてトップ
-    topBtn.click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 500);
-        return false;
-    });
-});
+    <nav class="global-nav" aria-label="主要メニュー">
+      <a href="/products.html">商品紹介</a>
+      <a href="/company.html">磯屋について</a>
+      <a href="/info.html">ご利用案内</a>
+      <a href="/law.html">特商法表記</a>
+    </nav>
 
-</script>
+    <a class="header-cta" href="https://line.isoya-commerce.com">LINEで注文</a>
+  </div>
+</header>
 
-<div id="wrap">
-<div id="headerWrap">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129515784-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-129515784-1');
-</script>
+<main>
+  <section class="hero">
+    <div>
+      <span class="hero-label">手造りえびせんべい 磯屋</span>
+      <h1>香ばしく、やさしい。<br>手造りのえびせんべい。</h1>
+      <p class="hero-lead">
+        磯屋は、えびの風味と素材の味を大切にした手造りえびせんべいのお店です。
+        ご家庭用にも、贈り物にも、毎日のお茶うけにも。
+      </p>
+      <div class="hero-actions">
+        <a class="line-btn" href="https://line.isoya-commerce.com">LINEミニアプリで注文</a>
+        <a class="btn sub" href="/products.html">商品を見る</a>
+      </div>
+    </div>
 
-		<div id="headerTop">
-			<h1>お中元、お歳暮に磯屋のえびせんべいをぜひどうぞ</h1>
-			<!--ヘッダ小ナビゲーション-->
-			<ul id="subNav">
-				<li id="subNav-member"><a href=#>会員登録</a></li>
-				<li id="subNav-login"></li>
-				<li id="subNav-mypage"><a href=#>マイページ</a></li>
-				<li id="subNav-search" class="clear"> </li>
-			</ul>
-		</div>
-	<!-- ロゴとガイドの並び -->
-	<div id="header">
-		<div id="head" class="clear">
-			<div id="h_logo">
-				<a href=/><img src="/images/makeshop/0858c51d-isoya9.png" alt="磯屋 手造りえびせんびい オンラインショップ"></a>
-			</div>
-			<div id="h_right" class="clear">
-				<div class="header_guide payment">
-					<img src="/images/makeshop/68c2cbbc-20231115.png" alt="決済方法は銀行振込、郵振替、代金引換、クレジット決済、コンビニ決済から選べます">
-				</div>
-				<li class="header_guide accept">
-					<p class="tel">0120-658-966</p>
-					<p classs="clear">
-					<span class>　受付時間</span>
-					      <span class>９：００～１７：００<br>（日、祝、お盆、年末年始を除く）</span>
-					</p>
-				</li>
-				<div class="header_guide cart">
-					
-				</div>
-			</div>
-		</div>
-		<!--//header-->
-	</div>
-	<!---ナビゲーション-->
-			<ul id="gNav" class="clear">
-				<li id="gNav_home"><a href=/>トップページ</a></li>
-				<li id="gNav_all"><a href=/products.html>商品一覧</a></li>
-				<li id="gNav_company"><a href=/company.html>会社概要</a></li>
-				<li id="gNav_useinfo"><a href=/info.html>ご利用案内</a></li>
-				<li id="gNav_mail"> <a href=/contact.html>お問合わせ</a></li>
-			</ul>
+    <div class="hero-card">
+      <img src="/images/hero-isoya.jpg" alt="手造りえびせんべい 磯屋について">
+      <p class="hero-note">初めての方は、まず商品紹介をご覧ください。</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="en">FEATURE</p>
+      <h2>磯屋のこだわり</h2>
+      <p>派手さよりも、毎日食べたくなる味。素材焼き加減香ばしさを大切にしています。</p>
+    </div>
+
+    <div class="feature-grid">
+      <article class="card">
+        <h3>手造りの味</h3>
+        <p>一つひとつの工程を大切にし、香ばしく食べやすい味に仕上げています。</p>
+      </article>
+      <article class="card">
+        <h3>贈り物にも</h3>
+        <p>ご家庭用だけでなく、ちょっとした手土産や贈答にも使いやすい商品です。</p>
+      </article>
+      <article class="card">
+        <h3>LINEで簡単注文</h3>
+        <p>スマホから商品を選び、LINEミニアプリでスムーズにご注文いただけます。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="en">PRODUCTS</p>
+      <h2>おすすめ商品</h2>
+      <p>まずは人気商品やお試しセットから。詳しい商品紹介ページもご用意しています。</p>
+    </div>
+
+    <div class="product-grid">
+      <article class="product-card">
+        <div class="product-image">
+          <img src="/images/makeshop/50763bcf-banner_buy_now_lower_2200.png" alt="お試しセット">
+        </div>
+        <h3>お試しセット</h3>
+        <p>磯屋の味を初めて楽しむ方におすすめのセットです。</p>
+        <p class="price">詳しくは商品紹介へ</p>
+        <a class="btn" href="/products.html#trial-set">商品を見る</a>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <img src="/images/makeshop/b747ea1f-baibainew.png" alt="商品一覧">
+        </div>
+        <h3>定番えびせん</h3>
+        <p>香ばしさと食べやすさを大切にした、磯屋の定番商品です。</p>
+        <p class="price">LINE注文で確認</p>
+        <a class="btn" href="/products.html#standard">商品を見る</a>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <img src="/images/makeshop/ccf5e2a3-t_subBnr03.jpg" alt="LINE注文">
+        </div>
+        <h3>LINEで注文</h3>
+        <p>注文再注文はLINEミニアプリから。スマホで簡単にご利用いただけます。</p>
+        <p class="price">注文ページへ</p>
+        <a class="line-btn" href="https://line.isoya-commerce.com">LINEで注文</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="split">
+      <div class="wide-banner">
+        <img src="/images/makeshop/68c2cbbc-20231115.png" alt="お支払い方法">
+      </div>
+      <div class="split-text">
+        <p class="en">ORDER</p>
+        <h2>ご注文はLINEミニアプリへ</h2>
+        <p>
+          商品紹介ページで内容をご確認いただき、ご注文はLINEミニアプリからお願いします。
+          住所入力支払い方法選択注文確認まで、スマホで進められます。
+        </p>
+        <div class="section-actions">
+          <a class="line-btn" href="https://line.isoya-commerce.com">LINEミニアプリを開く</a>
+          <a class="btn sub" href="https://lin.ee/QJ61Cb3">LINE友だち追加</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-logo">手造りえびせんべい 磯屋</p>
+      <p>香ばしさと手造りの味を、まっすぐお届けします。</p>
+    </div>
+    <div class="footer-links">
+      <a href="/products.html">商品紹介</a>
+      <a href="/info.html">ご利用案内</a>
+      <a href="/privacy.html">プライバシーポリシー</a>
+      <a href="/law.html">特定商取引法に基づく表記</a>
+    </div>
+  </div>
+  <p class="copyright">© 手造りえびせんべい 磯屋</p>
+</footer>
+
+<div class="fixed-order">
+  <a href="https://line.isoya-commerce.com">LINEで注文する</a>
 </div>
-<div id="topImage">
-	
-</div>
-<div id="wrapper">
-
-
-<div class="rightContents" id="top">
-	<!--サブバナー-->
-	<div class="section subBnr clear">
-		<p class="t_member"><a href="https://lin.ee/QJ61Cb3" target="_blank"><img src="/images/makeshop/ccf5e2a3-t_subBnr03.jpg" alt="LINE友達追加"></a></p>
-		<p class="t_payment"><a href="/products.html"><img src="/images/makeshop/50763bcf-banner_buy_now_lower_2200.png" alt="お試しセット 2,000円(税抜) 送料無料"></a></p>
-               
-	</div>
-
-	<div class="section subBnr clear">
-		<p class="t_member"><a href="#"><img src="/images/makeshop/6b738898-new_t_subBnr01.png" alt="お買い物がもっとお得になる新規会員登録はこちらです"></a></p>
-		<p class="t_payment"><a href="/info.html#aboutDelivery"><img src="/images/makeshop/b1e35784-t_subBnr02.jpg.photo.jpg" alt="5000円以上のご注文で送料が無料になります。北海道・沖縄・離島の場合は送料割引になります。詳しくはこちら"></a></p>
-                <p class="t_member"><a href="/company.html"><img src="/images/makeshop/37b4ebf9-pc_bnr1.jpg" alt="手造りえびせんべい 磯屋について"></a></p>
-		<p class="t_payment"><a href="/products.html"><img src="/images/makeshop/b747ea1f-baibainew.png" alt="お試しセット 2,000円(税抜) 送料無料"></a></p>
-	</div>
-	
-	
-	<!-- 新着情報 -->
-	<div class="section" id="r_new">
-		
-	</div>
-	
-	<!-- おすすめ商品 -->
-	<div class="section" id="r_recomend">
-		
-	</div>
-	
-	<!-- ランキング -->
-	
-	<div class="section" id="r_ranking">
-		<img src="/images/makeshop/e21776ee-t_tit_rank.png" alt="ランキング" class="titleMgn">
-		<ul class="clear">
-			
-			<li class="rankList" id="rank"> <em></em>
-				<div class="rankImg">
-					<a href=/products.html></a>
-				</div>
-				<div class="rankDetail">
-					<p class="rankName"><a href=/products.html></a></p>
-					<p class="rankPrice"></p>
-				</div>
-			</li>
-			
-		</ul>
-	</div>
-	
-
-	<!-- レビュー -->
-	
-	<div class="section" id="r_review">
-		<img src="/images/makeshop/3969f086-t_tit_review.png" alt="新着レビュー" class="titleMgn">
-　　　
-	</div>
-	 
-
-	<!-- 最近チェックした商品 -->
-	
-	<div class="section" id="r_recent">
-		
-	</div>
-	
-
-<!-- お知らせ -->
-<div class="section" id="r_news">
-	<img src="/images/makeshop/b56f6c11-t_tit_news.png" alt="お知らせ" class="titleMgn">
-
-	<ul id="isoya-auto-news"></ul>
-</div>
-
-<script>
-fetch("https://line-render-app-1.onrender.com/api/news")
-.then(function(res){ return res.json(); })
-.then(function(list){
-	var html = list.map(function(n){
-		return '<li><span>[' + n.date + ']</span><a href="' + (n.url || '#') + '">' + n.title + '</a></li>';
-	}).join('');
-
-	document.getElementById("isoya-auto-news").innerHTML = html;
-})
-.catch(function(e){
-	document.getElementById("isoya-auto-news").innerHTML =
-		'<li><span>[お知らせ]</span>現在お知らせを読み込み中です</li>';
-});
-</script>
-
-</div>
-
-
-</td>
-</tr>
-</table>
-
-<p class="pageTop"><a href=""><img src="/images/makeshop/0c68009d-f_topPage_btn.png" alt="ページトップへ"></a></p>
-<!--//wrapper-->
-</div>
-	<div id="footer_guide">
-		<h2><img src="/images/makeshop/b0e0fc23-f_tit_goriyou.png" alt="ご利用案内"></h2>
-		<div id="footer_guidebig">
-			<ul class="footer_guide_small">
-				<li>
-					<h3><img src="/images/makeshop/547dd617-f_guide01.png" alt="配送について"></h3>
-					<p><img src="/images/makeshop/2f3d258b-f_guide01_img01.png" alt="配送はゆうパックまたはヤマト運輸を利用いたします"></p>
-					<p>10,000円(税抜)以上のご注文で<span>送料無料</span><br>(北海道・沖縄・離島は-500円の送料800円)</p>
-					<p>※お客様には配送業者をお選びいただけません。</p>
-					<a href="/info.html#aboutDelivery" class="detail">詳しくはこちら</a>
-				</li>
-				<li>
-					<h3><img src="/images/makeshop/58b24dfb-f_guide04.png" alt="個人情報について"></h3>
-					<p>お客様からお預かりした大切な個人情報（住所・氏名・メールアドレスなど）を、裁判所や警察機関等、公共機関からの提出要請があった場合以外、公開または第三者に譲渡することは一切ございません。</p>
-				</li>
-			</ul>
-			<ul class="footer_guide_small">
-				<li>
-					<h3><img src="/images/makeshop/4ee55021-f_guide03.png" alt="お支払いについて"></h3>
-					<p class="f_payment">お支払いは以下の方法がご選択いただけます。</p>
-					<ul class="payment">
- <li class="payment_big">
-                                                                <img src="/images/makeshop/4cb893fa-ap_logo-0000.jpg"width="250"height"30"
-                                               <li>
-
-						<li class="payment_big">
-							<h4>銀行振込</h4>
-						</li>
-													
-						
-						<li class="payment_big">
-							<h4>代金引換</h4>
-						</li>
-<!--
-						<li class="payment_big">
-							<h4>コンビニ決済</h4>
-							<div class="payment_iconWrap">
-								  <img src="/images/makeshop/85e604e2-B10_20170331.jpg300.jpg">
-							</div>
-						</li>
--->
-						<li class="payment_big card clear">
-							<h4>クレジット決済</h4>
-							<ul class="payment_iconWrap">
-								<li class="visa"><img src="/images/makeshop/5ff553f6-card_visa.png" alt="visa"></li>
-								<li class="mastercard"><img src="/images/makeshop/f64164df-card_master.png" alt="mastercard"></li>
-								<li class="jcb"><img src="/images/makeshop/2bc7b57e-card_jcb.png" alt="jcb"></li>
-								<li class="american"><img src="/images/makeshop/b33f5570-card_amex.png" alt="americanexpress"></li>
-								<li class="diners"><img src="/images/makeshop/079e5892-card_dinersclab.jpg" alt="diners club card"></li>
-							</ul>
-						</li>
-                                                 					</ul>
-					<p>※銀行振込は前払いです。手数料はご負担ください。<br>※代引き手数料(税抜)は下記のとおりです。<br>お買い上げ金額1万円未満　300円<br>お買い上げ金額1万円以上　無料</p>
-					<a href="/info.html#aboutPay" class="detail">詳しくはこちら</a>
-				</li>
-				<li>
-					<h3><img src="/images/makeshop/74e9c8dd-f_guide05.png" alt="消費税について"></h3>
-					<p>弊社は全て税込価格となります。</p>
-				</li>
-			</ul>
-			<ul class="footer_guide_small">
-				<li class="exchange">
-					<h3><img src="/images/makeshop/51c3ecce-f_guide02.png" alt="返品交換について"></h3>
-					<p>手焼き製法による焼き菓子のため、焼け具合などに関連しての返品交換はご遠慮いただきたく存じます。</p>
-					<div class="case">
-					</div>
-					<div class="case">
-					<p>【お客様都合の返品・キャンセルの場合】</p>
-					<p>送料はお客様負担にてお願い致します。</p>
-					</div>
-				</li>
-				<li class="company">
-					<h3><img src="/images/makeshop/0f3063c9-f_guide06.png" alt="お問い合わせ"></h3>
-					<p class="shopname">合同会社　磯屋コマース</p></p>
-					<p id="shopaddres"></p>
-					<p>TEL：</p>
-					<a href=/contact.html>メールでのお問い合わせ</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-			<ul id="f_nav">
-				<li><a href=/privacy.html>個人情報保護ポリシー</a></li>
-				<li>|</li>
-				<li><a href=/law.html>特定商取引法表示</a></li>
-				<li>|</li>
-				<li><a href=/info.html>ご利用ガイド</a></li>
-			</ul>
-			<div id="f_info">
-				<!--【手造りえびせんべい 磯屋】/<br>
-                磯屋&nbsp;<br>
-                <br>
-                /<a href=/contact.html>メールはこちら</a><br>-->
-				<address>
-				Copyright (c)  手造りえびせんべい 磯屋 all rights reserved.
-				</address>
-			</div>
-<!--//container-->
-</div>
-
 
 </body>
 </html>
