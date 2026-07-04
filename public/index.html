@@ -13,38 +13,61 @@
       color:#2b2118;
       line-height:1.8;
     }
-    header{
+
+    .site-header{
       background:#fff;
       border-bottom:1px solid #eadfce;
+      position:sticky;
+      top:0;
+      z-index:20;
     }
-    .wrap{
+
+    .header-inner{
       max-width:980px;
       margin:0 auto;
-      padding:20px 16px;
-    }
-    .head{
+      padding:12px 16px;
       display:flex;
       align-items:center;
       justify-content:space-between;
-      gap:16px;
-      flex-wrap:wrap;
+      gap:18px;
     }
-    .brand{
-      font-weight:800;
-      color:#5a2f13;
-      font-size:20px;
+
+    .brand img{
+      width:160px;
+      height:auto;
+      display:block;
     }
-    nav{
+
+    .global-nav{
       display:flex;
       gap:16px;
       flex-wrap:wrap;
       font-size:14px;
     }
-    nav a{
+
+    .global-nav a{
       color:#5a2f13;
       text-decoration:none;
       font-weight:700;
     }
+
+    .header-cta{
+      display:inline-block;
+      padding:10px 16px;
+      border-radius:999px;
+      background:#10b85f;
+      color:#fff;
+      text-decoration:none;
+      font-weight:800;
+      white-space:nowrap;
+    }
+
+    .wrap{
+      max-width:980px;
+      margin:0 auto;
+      padding:20px 16px;
+    }
+
     .hero{
       background:#fff;
       border-radius:18px;
@@ -52,12 +75,14 @@
       margin-top:28px;
       box-shadow:0 4px 18px rgba(0,0,0,.08);
     }
+
     h1{
       font-size:30px;
       line-height:1.35;
       color:#5a2f13;
       margin:0 0 14px;
     }
+
     h2{
       font-size:20px;
       margin-top:34px;
@@ -65,12 +90,14 @@
       padding-left:10px;
       color:#3b2a20;
     }
+
     .btns{
       display:flex;
       gap:12px;
       flex-wrap:wrap;
       margin-top:20px;
     }
+
     .btn{
       display:inline-block;
       padding:12px 18px;
@@ -80,26 +107,31 @@
       text-decoration:none;
       font-weight:800;
     }
+
     .btn.sub{
       background:#5a2f13;
     }
+
     .grid{
       display:grid;
       grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
       gap:14px;
       margin-top:16px;
     }
+
     .card{
       background:#fff;
       border-radius:16px;
       padding:18px;
       box-shadow:0 3px 14px rgba(0,0,0,.06);
     }
+
     .card h3{
       margin:0 0 8px;
       color:#5a2f13;
       font-size:17px;
     }
+
     .product-img{
       width:100%;
       height:auto;
@@ -109,10 +141,12 @@
       background:#f3eee6;
       display:block;
     }
+
     .price{
       font-weight:800;
       color:#8b3a1d;
     }
+
     .notice{
       background:#fff8ec;
       border:1px solid #ead7bd;
@@ -120,38 +154,67 @@
       padding:16px;
       margin-top:16px;
     }
+
     footer{
       background:#5a2f13;
       color:#fff;
       margin-top:48px;
     }
+
     footer a{
       color:#fff;
       text-decoration:none;
       font-weight:700;
     }
+
     .foot{
       display:flex;
       justify-content:space-between;
       gap:20px;
       flex-wrap:wrap;
     }
+
     .small{
       font-size:13px;
       opacity:.85;
     }
+
+    @media (max-width:760px){
+      .header-inner{
+        align-items:flex-start;
+        flex-direction:column;
+      }
+
+      .brand img{
+        width:140px;
+      }
+
+      .global-nav{
+        gap:12px;
+      }
+
+      .header-cta{
+        width:100%;
+        text-align:center;
+      }
+    }
   </style>
 </head>
 <body>
-  <header>
-    <div class="wrap head">
-      <div class="brand">手造りえびせんべい 磯屋</div>
-      <nav>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/">
+        <img src="/images/makeshop/0858c51d-isoya9.png" alt="手造りえびせんべい 磯屋">
+      </a>
+
+      <nav class="global-nav">
         <a href="#products">商品紹介</a>
-        <a href="/order-guide.html">ご注文方法</a>
-        <a href="/shipping.html">送料について</a>
-        <a href="/legal.html">特定商取引法に基づく表記</a>
+        <a href="/legal.html">特商法表記</a>
+        <a href="/privacy.html">プライバシーポリシー</a>
       </nav>
+
+      <a class="header-cta" href="https://line.isoya-commerce.com">LINEで注文</a>
     </div>
   </header>
 
@@ -164,8 +227,8 @@
       </p>
 
       <div class="btns">
-        <a class="btn" href="/order-guide.html">LINEでの注文方法を見る</a>
-        <a class="btn sub" href="/shipping.html">送料を確認する</a>
+        <a class="btn" href="https://line.isoya-commerce.com">LINEで注文する</a>
+        <a class="btn sub" href="#products">商品を見る</a>
       </div>
     </section>
 
@@ -195,15 +258,15 @@
       </section>
 
       <section class="card">
-  <img
-    src="https://line-render-app-1.onrender.com/uploads/2_000000000002.png"
-    alt="松あかしゃ"
-    class="product-img"
-  >
-  <h3>松あかしゃ</h3>
-  <p>海老の風味豊かなこちらも定番商品です。</p>
-  <p class="price">370円（税込）</p>
-</section>
+        <img
+          src="https://line-render-app-1.onrender.com/uploads/2_000000000002.png"
+          alt="松あかしゃ"
+          class="product-img"
+        >
+        <h3>松あかしゃ</h3>
+        <p>海老の風味豊かなこちらも定番商品です。</p>
+        <p class="price">370円（税込）</p>
+      </section>
     </div>
 
     <h2>ご注文の流れ</h2>
@@ -230,7 +293,7 @@
     <div class="notice">
       <p>
         送料はお届け先地域と配送サイズにより異なります。
-        詳細は <a href="/shipping.html">送料について</a> をご確認ください。
+        ご注文画面でご確認ください。
       </p>
       <p>
         現在、コンビニオンライン決済は審査連携準備中です。
@@ -251,8 +314,7 @@
         <h3>確認ページ</h3>
         <p>
           <a href="/legal.html">特定商取引法に基づく表記</a><br>
-          <a href="/privacy.html">プライバシーポリシー</a><br>
-          <a href="/shipping.html">送料について</a>
+          <a href="/privacy.html">プライバシーポリシー</a>
         </p>
       </section>
     </div>
@@ -265,12 +327,11 @@
         <p class="small">香ばしさと手造りの味を、まっすぐお届けします。</p>
       </div>
       <div>
-        <a href="/order-guide.html">ご注文方法</a><br>
-        <a href="/shipping.html">送料について</a><br>
         <a href="/legal.html">特定商取引法に基づく表記</a><br>
         <a href="/privacy.html">プライバシーポリシー</a>
       </div>
     </div>
   </footer>
+
 </body>
 </html>
