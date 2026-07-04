@@ -13,37 +13,10 @@
       color:#2b2118;
       line-height:1.8;
     }
-    header{
-      background:#fff;
-      border-bottom:1px solid #eadfce;
-    }
     .wrap{
       max-width:980px;
       margin:0 auto;
       padding:20px 16px;
-    }
-    .head{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:16px;
-      flex-wrap:wrap;
-    }
-    .brand{
-      font-weight:800;
-      color:#5a2f13;
-      font-size:20px;
-    }
-    nav{
-      display:flex;
-      gap:16px;
-      flex-wrap:wrap;
-      font-size:14px;
-    }
-    nav a{
-      color:#5a2f13;
-      text-decoration:none;
-      font-weight:700;
     }
     .hero{
       background:#fff;
@@ -143,17 +116,6 @@
   </style>
 </head>
 <body>
-  <header>
-    <div class="wrap head">
-      <div class="brand">手造りえびせんべい 磯屋</div>
-      <nav>
-        <a href="#products">商品紹介</a>
-        <a href="/legal.html">特定商取引法に基づく表記</a>
-        <a href="/privacy.html">プライバシーポリシー</a>
-      </nav>
-    </div>
-  </header>
-
   <main class="wrap">
     <section class="hero">
       <h1>香ばしく、やさしい。<br>手造りのえびせんべい。</h1>
