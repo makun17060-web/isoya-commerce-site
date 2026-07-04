@@ -8,6 +8,7 @@ const CSS_DIR = path.join(PUBLIC, "css");
 const LINE_ORDER_URL = "https://line.isoya-commerce.com";
 const LINE_FRIEND_URL = "https://lin.ee/QJ61Cb3";
 
+// 既に移植済みの画像を使う
 const ASSET = {
   logo: "/images/makeshop/0858c51d-isoya9.png",
   payment: "/images/makeshop/68c2cbbc-20231115.png",
@@ -15,7 +16,7 @@ const ASSET = {
   trialBanner: "/images/makeshop/50763bcf-banner_buy_now_lower_2200.png",
   aboutBanner: "/images/makeshop/37b4ebf9-pc_bnr1.jpg",
   setBanner: "/images/makeshop/b747ea1f-baibainew.png",
-  hero: "/images/hero-isoya.jpg",
+  hero: "/images/hero-isoya.jpg"
   originalSet: "/images/products/original-set.png"
 };
 
@@ -30,8 +31,10 @@ function write(file, content) {
 
 function backupPublic() {
   if (!fs.existsSync(PUBLIC)) return;
+
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
   const backupDir = path.join(ROOT, "backup-before-new-design-" + stamp);
+
   fs.cpSync(PUBLIC, backupDir, { recursive: true });
   console.log("backup:", backupDir);
 }
@@ -54,7 +57,7 @@ function layout(title, description, body) {
       <img src="${ASSET.logo}" alt="手造りえびせんべい 磯屋">
     </a>
 
-    <nav class="global-nav">
+    <nav class="global-nav" aria-label="主要メニュー">
       <a href="/products.html">商品紹介</a>
       <a href="/company.html">磯屋について</a>
       <a href="/info.html">ご利用案内</a>
@@ -75,7 +78,6 @@ ${body}
     </div>
     <div class="footer-links">
       <a href="/products.html">商品紹介</a>
-      <a href="/company.html">磯屋について</a>
       <a href="/info.html">ご利用案内</a>
       <a href="/privacy.html">プライバシーポリシー</a>
       <a href="/law.html">特定商取引法に基づく表記</a>
@@ -363,9 +365,6 @@ img {
   justify-content: center;
   margin-bottom: 18px;
   overflow: hidden;
-  color: var(--muted);
-  text-align: center;
-  font-weight: 700;
 }
 
 .product-image img {
@@ -374,23 +373,13 @@ img {
   object-fit: cover;
 }
 
-.product-image-contain {
-  background: linear-gradient(135deg, #fff8ef, #ffffff);
-}
-
-.product-image-contain img {
-  object-fit: contain;
-  padding: 12px;
-}
-
 .product-card .price {
   margin-top: 12px;
   color: var(--brown);
   font-weight: 900;
 }
 
-.product-card .btn,
-.product-card .line-btn {
+.product-card .btn {
   margin-top: auto;
   width: 100%;
 }
@@ -648,23 +637,23 @@ const indexBody = `
     <div class="section-head">
       <p class="en">PRODUCTS</p>
       <h2>おすすめ商品</h2>
-      <p>まずは人気商品やオリジナルセットから。詳しい商品紹介ページもご用意しています。</p>
+      <p>まずは人気商品やお試しセットから。詳しい商品紹介ページもご用意しています。</p>
     </div>
 
     <div class="product-grid">
       <article class="product-card">
-        <div class="product-image product-image-contain">
-          <img src="${ASSET.originalSet}" alt="磯屋 オリジナルセット">
+        <div class="product-image">
+          <img src="${ASSET.trialBanner}" alt="お試しセット">
         </div>
-        <h3>オリジナルセット</h3>
-        <p>磯屋の人気商品を詰め合わせたセットです。初めての方にもおすすめです。</p>
-        <p class="price">LINE注文で確認</p>
-        <a class="btn" href="/products.html#original-set">商品を見る</a>
+        <h3>お試しセット</h3>
+        <p>磯屋の味を初めて楽しむ方におすすめのセットです。</p>
+        <p class="price">詳しくは商品紹介へ</p>
+        <a class="btn" href="/products.html#trial-set">商品を見る</a>
       </article>
 
       <article class="product-card">
         <div class="product-image">
-          <img src="${ASSET.setBanner}" alt="定番えびせん">
+          <img src="${ASSET.setBanner}" alt="商品一覧">
         </div>
         <h3>定番えびせん</h3>
         <p>香ばしさと食べやすさを大切にした、磯屋の定番商品です。</p>
@@ -713,16 +702,16 @@ const productsBody = `
     <p>磯屋のえびせんべいをご紹介します。ご注文はLINEミニアプリからお願いします。</p>
   </div>
 
-  <section id="original-set" class="page-card">
+  <section id="trial-set" class="page-card">
     <div class="split">
       <div class="wide-banner">
-        <img src="${ASSET.originalSet}" alt="磯屋 オリジナルセット">
+        <img src="${ASSET.trialBanner}" alt="お試しセット">
       </div>
       <div>
-        <h2>オリジナルセット</h2>
+        <h2>お試しセット</h2>
         <p>
-          磯屋の人気商品を詰め合わせたセットです。
-          いろいろな味を楽しみたい方、初めて磯屋を試す方、贈り物にもおすすめです。
+          初めての方におすすめのセットです。磯屋の味を少しずつ楽しみたい方、
+          ご家庭用や贈り物前のお試しにも向いています。
         </p>
         <p class="notice">価格内容量はLINE注文ページでご確認ください。</p>
         <a class="line-btn" href="${LINE_ORDER_URL}">LINEで注文する</a>
@@ -734,7 +723,7 @@ const productsBody = `
     <div class="section-head">
       <p class="en">STANDARD</p>
       <h2>定番商品</h2>
-      <p>商品写真は今後、実際の商品画像に順番に差し替えていきます。</p>
+      <p>商品写真は今後、実際の商品画像に差し替えていきます。</p>
     </div>
 
     <div class="product-grid">
@@ -770,6 +759,14 @@ const productsBody = `
         <a class="line-btn" href="${LINE_ORDER_URL}">注文ページへ</a>
       </article>
 
+      <article class="product-card" id="gift">
+        <div class="product-image"><span>商品画像を差し替え予定</span></div>
+        <h3>詰め合わせ贈答</h3>
+        <p>ご家庭用から贈り物まで、用途に合わせてお選びいただけます。</p>
+        <p class="price">内容はLINEで確認</p>
+        <a class="line-btn" href="${LINE_ORDER_URL}">注文ページへ</a>
+      </article>
+
       <article class="product-card" id="line-order">
         <div class="product-image">
           <img src="${ASSET.lineBanner}" alt="LINE注文">
@@ -792,7 +789,7 @@ const companyBody = `
   </div>
 
   <div class="wide-banner">
-    <img src="${ASSET.hero}" alt="磯屋について">
+    <img src="${ASSET.aboutBanner}" alt="磯屋について">
   </div>
 
   <section class="page-card">
@@ -876,14 +873,38 @@ const lawBody = `
 
   <section class="page-card">
     <table class="table">
-      <tr><th>販売業者</th><td>手造りえびせんべい 磯屋</td></tr>
-      <tr><th>運営責任者</th><td>実際の責任者名に差し替えてください</td></tr>
-      <tr><th>所在地</th><td>実際の所在地に差し替えてください</td></tr>
-      <tr><th>電話番号</th><td>実際の電話番号に差し替えてください</td></tr>
-      <tr><th>販売価格</th><td>各商品ページまたは注文画面に表示</td></tr>
-      <tr><th>商品代金以外の必要料金</th><td>送料、代引手数料等がかかる場合があります。</td></tr>
-      <tr><th>お支払い方法</th><td>注文画面に表示される方法にてお支払いください。</td></tr>
-      <tr><th>返品交換</th><td>食品のため、お客様都合による返品交換は原則としてお受けできません。</td></tr>
+      <tr>
+        <th>販売業者</th>
+        <td>手造りえびせんべい 磯屋</td>
+      </tr>
+      <tr>
+        <th>運営責任者</th>
+        <td>実際の責任者名に差し替えてください</td>
+      </tr>
+      <tr>
+        <th>所在地</th>
+        <td>実際の所在地に差し替えてください</td>
+      </tr>
+      <tr>
+        <th>電話番号</th>
+        <td>実際の電話番号に差し替えてください</td>
+      </tr>
+      <tr>
+        <th>販売価格</th>
+        <td>各商品ページまたは注文画面に表示</td>
+      </tr>
+      <tr>
+        <th>商品代金以外の必要料金</th>
+        <td>送料、代引手数料等がかかる場合があります。</td>
+      </tr>
+      <tr>
+        <th>お支払い方法</th>
+        <td>注文画面に表示される方法にてお支払いください。</td>
+      </tr>
+      <tr>
+        <th>返品交換</th>
+        <td>食品のため、お客様都合による返品交換は原則としてお受けできません。</td>
+      </tr>
     </table>
     <p class="notice">MakeShop解約前に、必ず正式な表記へ差し替えてください。</p>
   </section>
@@ -897,12 +918,66 @@ ensureDir(CSS_DIR);
 
 write(path.join(CSS_DIR, "isoya-new.css"), css);
 
-write(path.join(PUBLIC, "index.html"), layout("公式サイト", "手造りえびせんべい 磯屋の公式サイト。商品紹介とLINE注文のご案内。", indexBody));
-write(path.join(PUBLIC, "products.html"), layout("商品紹介", "磯屋の商品紹介ページ。オリジナルセット、定番えびせん、LINE注文のご案内。", productsBody));
-write(path.join(PUBLIC, "company.html"), layout("磯屋について", "手造りえびせんべい 磯屋についての紹介ページ。", companyBody));
-write(path.join(PUBLIC, "info.html"), layout("ご利用案内", "配送、お支払い、返品についてのご利用案内。", infoBody));
-write(path.join(PUBLIC, "privacy.html"), layout("プライバシーポリシー", "個人情報の取り扱いについて。", privacyBody));
-write(path.join(PUBLIC, "law.html"), layout("特定商取引法に基づく表記", "特定商取引法に基づく表記。", lawBody));
+write(
+  path.join(PUBLIC, "index.html"),
+  layout(
+    "公式サイト",
+    "手造りえびせんべい 磯屋の公式サイト。商品紹介とLINE注文のご案内。",
+    indexBody
+  )
+);
 
-console.log("created new Isoya design with original set image");
-console.log("check image exists:", fs.existsSync(path.join(PUBLIC, "images", "products", "original-set.png")));
+write(
+  path.join(PUBLIC, "products.html"),
+  layout(
+    "商品紹介",
+    "磯屋の商品紹介ページ。お試しセット、定番えびせん、LINE注文のご案内。",
+    productsBody
+  )
+);
+
+write(
+  path.join(PUBLIC, "company.html"),
+  layout(
+    "磯屋について",
+    "手造りえびせんべい 磯屋についての紹介ページ。",
+    companyBody
+  )
+);
+
+write(
+  path.join(PUBLIC, "info.html"),
+  layout(
+    "ご利用案内",
+    "配送、お支払い、返品についてのご利用案内。",
+    infoBody
+  )
+);
+
+write(
+  path.join(PUBLIC, "privacy.html"),
+  layout(
+    "プライバシーポリシー",
+    "個人情報の取り扱いについて。",
+    privacyBody
+  )
+);
+
+write(
+  path.join(PUBLIC, "law.html"),
+  layout(
+    "特定商取引法に基づく表記",
+    "特定商取引法に基づく表記。",
+    lawBody
+  )
+);
+
+console.log("created new Isoya design");
+console.log("files:");
+console.log("- public/index.html");
+console.log("- public/products.html");
+console.log("- public/company.html");
+console.log("- public/info.html");
+console.log("- public/privacy.html");
+console.log("- public/law.html");
+console.log("- public/css/isoya-new.css");
