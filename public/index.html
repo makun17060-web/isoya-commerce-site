@@ -100,11 +100,19 @@
       color:#5a2f13;
       font-size:17px;
     }
+    .product-img{
+      width:100%;
+      height:auto;
+      object-fit:contain;
+      border-radius:12px;
+      margin-bottom:12px;
+      background:#f3eee6;
+      display:block;
+    }
     .price{
       font-weight:800;
       color:#8b3a1d;
     }
-    
     .notice{
       background:#fff8ec;
       border:1px solid #ead7bd;
@@ -131,17 +139,6 @@
     .small{
       font-size:13px;
       opacity:.85;
-    }
-  
-    .product-img{
-      width:100%;
-      height:auto;
-      max-height:none;
-      object-fit:contain;
-      border-radius:12px;
-      margin-bottom:12px;
-      background:#f3eee6;
-      display:block;
     }
   </style>
 </head>
@@ -176,14 +173,22 @@
 
     <div class="grid">
       <section class="card">
-        <img src="https://line-render-app-1.onrender.com/uploads/1766470786708_akashi_item.jpg" alt="オリジナルセット" class="product-img" style="width:100%;height:auto;object-fit:contain;display:block;">
+        <img
+          src="https://line-render-app-1.onrender.com/uploads/1766470786708_akashi_item.jpg"
+          alt="オリジナルセット"
+          class="product-img"
+        >
         <h3>オリジナルセット</h3>
         <p>磯屋の人気商品を詰め合わせたセットです。</p>
         <p class="price">2,200円（税込）</p>
       </section>
 
       <section class="card">
-         <img src="https://line-render-app-1.onrender.com/uploads/1766470910323__.jpg"
+        <img
+          src="https://line-render-app-1.onrender.com/uploads/1766470910323__.jpg"
+          alt="磯あかしゃ"
+          class="product-img"
+        >
         <h3>磯あかしゃ</h3>
         <p>海苔の風味豊かな定番商品です。</p>
         <p class="price">370円（税込）</p>
@@ -191,7 +196,7 @@
 
       <section class="card">
         <h3>LINE注文</h3>
-        <p>LINE公式アカウント内の注文ページから、商品選択配送先入力注文確認まで行えます。</p>
+        <p>LINE公式アカウント内の注文ページから、商品選択・配送先入力・注文確認まで行えます。</p>
       </section>
     </div>
 
@@ -210,7 +215,7 @@
 
       <section class="card">
         <h3>3. 合計金額を確認</h3>
-        <p>商品代金送料お支払い総額を確認して注文します。</p>
+        <p>商品代金・送料・お支払い総額を確認して注文します。</p>
       </section>
     </div>
 
