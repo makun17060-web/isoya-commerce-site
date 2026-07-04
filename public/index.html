@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>手造りえびせんべい 磯屋｜公式通販</title>
   <meta name="description" content="手造りえびせんべい磯屋の公式通販サイトです。LINE公式アカウント内の注文ページよりご注文いただけます。">
+
   <style>
     body{
       margin:0;
@@ -12,6 +13,11 @@
       background:#fbf7ef;
       color:#2b2118;
       line-height:1.8;
+      font-size:16px;
+    }
+
+    a{
+      color:#5a2f13;
     }
 
     .site-header{
@@ -29,7 +35,7 @@
       display:flex;
       align-items:center;
       justify-content:space-between;
-      gap:18px;
+      gap:16px;
     }
 
     .brand img{
@@ -81,6 +87,7 @@
       line-height:1.35;
       color:#5a2f13;
       margin:0 0 14px;
+      letter-spacing:.02em;
     }
 
     h2{
@@ -106,6 +113,7 @@
       color:#fff;
       text-decoration:none;
       font-weight:800;
+      text-align:center;
     }
 
     .btn.sub{
@@ -132,9 +140,15 @@
       font-size:17px;
     }
 
+    .card p{
+      margin-top:0;
+    }
+
     .product-img{
       width:100%;
+      aspect-ratio:4 / 3;
       height:auto;
+      max-height:220px;
       object-fit:contain;
       border-radius:12px;
       margin-bottom:12px;
@@ -145,6 +159,7 @@
     .price{
       font-weight:800;
       color:#8b3a1d;
+      margin-bottom:0;
     }
 
     .notice{
@@ -153,6 +168,10 @@
       border-radius:14px;
       padding:16px;
       margin-top:16px;
+    }
+
+    .notice p:last-child{
+      margin-bottom:0;
     }
 
     footer{
@@ -180,26 +199,96 @@
     }
 
     @media (max-width:760px){
+      body{
+        font-size:15px;
+        line-height:1.75;
+      }
+
       .header-inner{
-        align-items:flex-start;
-        flex-direction:column;
+        padding:10px 12px;
+        gap:10px;
+        flex-wrap:wrap;
       }
 
       .brand img{
-        width:140px;
-      }
-
-      .global-nav{
-        gap:12px;
+        width:130px;
       }
 
       .header-cta{
+        margin-left:auto;
+        padding:8px 12px;
+        font-size:13px;
+      }
+
+      .global-nav{
         width:100%;
-        text-align:center;
+        justify-content:center;
+        gap:12px;
+        font-size:13px;
+        order:3;
+      }
+
+      .wrap{
+        padding:16px 12px;
+      }
+
+      .hero{
+        margin-top:14px;
+        padding:22px 18px;
+        border-radius:16px;
+      }
+
+      h1{
+        font-size:26px;
+        line-height:1.35;
+      }
+
+      h2{
+        font-size:18px;
+        margin-top:28px;
+      }
+
+      .btns{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      .btn{
+        width:100%;
+        box-sizing:border-box;
+        padding:13px 14px;
+      }
+
+      .grid{
+        grid-template-columns:1fr;
+        gap:14px;
+      }
+
+      .card{
+        padding:16px;
+        border-radius:14px;
+      }
+
+      .product-img{
+        max-height:200px;
+      }
+
+      .notice{
+        padding:14px;
+      }
+
+      .foot{
+        display:block;
+      }
+
+      .foot > div + div{
+        margin-top:16px;
       }
     }
   </style>
 </head>
+
 <body>
 
   <header class="site-header">
