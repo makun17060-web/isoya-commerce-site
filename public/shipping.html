@@ -158,6 +158,25 @@
       font-weight: 700;
     }
 
+    .calc-link-wrap {
+      margin: 18px 0 8px;
+    }
+
+    .calc-link {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: #0b3a53;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 800;
+      box-shadow: 0 6px 18px rgba(11,58,83,.18);
+    }
+
+    .calc-link:hover {
+      opacity: .92;
+    }
+
     @media (max-width: 600px) {
       .wrap {
         padding: 16px 10px 40px;
@@ -195,6 +214,16 @@
       <p>
         ご注文時には、商品代金、送料およびお支払い総額を
         注文確認画面でご確認いただけます。
+      </p>
+
+      <div class="calc-link-wrap">
+        <a class="calc-link" href="/shipping-calc.html">
+          送料・合計金額を計算する
+        </a>
+      </div>
+
+      <p class="small">
+        都道府県、商品、数量を選択すると、配送サイズ、送料および合計金額の目安を確認できます。
       </p>
 
       <h2>商品数量と配送サイズ</h2>
@@ -310,8 +339,17 @@
 
         const grouped = new Map();
 
+        const allowedGroups = new Set([
+          "akasha6",
+          "original_set"
+        ]);
+
         for (const rule of rules) {
           const key = rule.shippingGroup;
+
+          if (!allowedGroups.has(key)) {
+            continue;
+          }
 
           if (!grouped.has(key)) {
             grouped.set(key, {
@@ -449,4 +487,3 @@
   </script>
 </body>
 </html>
-
