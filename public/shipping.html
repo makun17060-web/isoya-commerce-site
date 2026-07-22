@@ -385,6 +385,18 @@
             list.appendChild(li);
           }
 
+          if (group.label === "バラ売り商品") {
+            const li = document.createElement("li");
+            li.textContent = "21袋以上：送料確認のためお問い合わせください";
+            list.appendChild(li);
+          }
+
+          if (group.label === "オリジナルセット") {
+            const li = document.createElement("li");
+            li.textContent = "7個以上：送料確認のためお問い合わせください";
+            list.appendChild(li);
+          }
+
           card.appendChild(list);
           grid.appendChild(card);
         }
