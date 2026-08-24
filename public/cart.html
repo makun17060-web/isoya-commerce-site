@@ -2,42 +2,51 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>カート｜手造りえびせんべい 磯屋</title>
+  <title>カート・お届け先｜手造りえびせんべい 磯屋</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/makeshop.css">
-  <style>
-    .simple-page {
-      max-width: 960px;
-      margin: 40px auto;
-      padding: 24px;
-      background: #fff;
-      line-height: 1.8;
-    }
-    .simple-page h1 {
-      font-size: 26px;
-      margin-bottom: 20px;
-    }
-    .simple-page a.button {
-      display: inline-block;
-      padding: 12px 20px;
-      margin-top: 20px;
-      background: #8b2f1c;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 6px;
-    }
-  </style>
+  <meta name="description" content="カートの確認、お届け先入力、Stripe決済へ進みます。">
+  <link rel="stylesheet" href="/css/isoya-new.css">
 </head>
-<body>
-<div id="wrap">
-  <div class="simple-page">
-    
-    <h1>カート</h1>
-    <p>現在、自前カート準備中です。</p>
-    <p><a class="button" href="https://line.isoya-commerce.com">LINE注文ページへ</a></p>
-  
-    <p><a class="button" href="/">トップへ戻る</a></p>
+<body data-page="cart">
+<header class="site-header"><div class="header-inner">
+  <a class="brand" href="/"><img src="/images/makeshop/0858c51d-isoya9.png" alt="手造りえびせんべい 磯屋"></a>
+  <nav class="global-nav"><a href="/products.html">買い物を続ける</a><a href="/shipping.html">送料</a><a href="/law.html">特商法表記</a></nav>
+  <a class="header-cta cart-link" href="/cart.html">カート <span class="cart-count">0</span></a>
+</div></header>
+
+<main class="checkout-main">
+  <div class="page-title"><p class="eyebrow">CHECKOUT</p><h1>カート・お届け先</h1><p>送料を含む合計は、決済画面へ進む前に計算します。</p></div>
+  <div id="cancel-notice" class="store-message" hidden>決済はキャンセルされました。カートの内容は残っています。</div>
+  <div class="checkout-layout">
+    <section class="checkout-card" aria-labelledby="cart-heading">
+      <h2 id="cart-heading">1. ご注文商品</h2>
+      <div id="cart-items"></div>
+      <div class="cart-subtotal"><span>商品小計</span><strong id="cart-subtotal">0円</strong></div>
+      <a class="text-link" href="/products.html">← 商品を追加する</a>
+    </section>
+
+    <form id="checkout-form" class="checkout-card">
+      <h2>2. お届け先</h2>
+      <p class="form-note">入力したお届け先は、送料計算と発送に使用します。</p>
+      <div class="form-grid">
+        <label class="full">お名前<span>必須</span><input name="name" autocomplete="name" required maxlength="80"></label>
+        <label class="full">メールアドレス<span>必須</span><input name="email" type="email" autocomplete="email" required></label>
+        <label class="full">電話番号<span>必須</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="09012345678"></label>
+        <label>郵便番号<span>必須</span><input name="postalCode" autocomplete="postal-code" inputmode="numeric" required maxlength="8" placeholder="1234567"></label>
+        <label>都道府県<span>必須</span><select name="prefecture" autocomplete="address-level1" required><option value="">選択してください</option></select></label>
+        <label class="full">市区町村<span>必須</span><input name="city" autocomplete="address-level2" required maxlength="100"></label>
+        <label class="full">番地<span>必須</span><input name="address1" autocomplete="address-line1" required maxlength="100"></label>
+        <label class="full">建物名・部屋番号<input name="address2" autocomplete="address-line2" maxlength="100"></label>
+      </div>
+      <label class="terms-check"><input name="acceptedTerms" type="checkbox" required> <span><a href="/law.html" target="_blank">特定商取引法に基づく表記</a>、<a href="/privacy.html" target="_blank">プライバシーポリシー</a>、<a href="/shipping.html" target="_blank">送料</a>を確認し、注文内容に同意します。</span></label>
+      <div id="checkout-error" class="store-message error" role="alert" hidden></div>
+      <button id="checkout-button" class="checkout-button" type="submit">送料を計算して決済へ進む</button>
+      <p class="stripe-note"><span aria-hidden="true">🔒</span> 決済情報はStripeの安全な画面で入力します。当サイトにカード番号は保存されません。</p>
+    </form>
   </div>
-</div>
+</main>
+
+<footer class="site-footer"><div class="footer-inner"><div><p class="footer-logo">手造りえびせんべい 磯屋</p></div><div class="footer-links"><a href="/shipping.html">送料について</a><a href="/privacy.html">プライバシーポリシー</a><a href="/law.html">特定商取引法に基づく表記</a></div></div><p class="copyright">© 手造りえびせんべい 磯屋</p></footer>
+<script type="module" src="/js/store.js"></script>
 </body>
 </html>
