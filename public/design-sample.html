@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="手造りえびせんべい磯屋 オンラインストアのデザインサンプル">
+  <title>デザインサンプル｜手造りえびせんべい 磯屋</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/isoya-new.css">
+  <link rel="stylesheet" href="/css/design-sample.css">
+</head>
+<body data-page="products" class="sample-page">
+  <div class="sample-banner">
+    <p>税込価格表示</p><span></span><p>地域別送料を自動計算</p><span></span><p>Stripeの安全な決済</p>
+  </div>
+
+  <header class="sample-header">
+    <div class="sample-header-inner">
+      <a class="sample-brand" href="/design-sample.html" aria-label="磯屋オンラインストア トップ">
+        <small>手造りえびせんべい</small>
+        <strong>磯屋</strong>
+      </a>
+      <nav class="sample-nav" aria-label="メインナビゲーション">
+        <a href="#products">商品一覧</a>
+        <a href="#craft">磯屋の手造り</a>
+        <a href="/shipping.html">送料について</a>
+      </nav>
+      <a class="sample-cart" href="/cart.html"><span>カート</span><b class="cart-count">0</b></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="sample-hero">
+      <div class="hero-copy">
+        <p class="hero-kicker">愛知・南知多からお届け</p>
+        <h1>香ばしさを、<br>まっすぐ。</h1>
+        <p class="hero-lead">えびの風味と素材の味を大切に。<br>一枚一枚、手造りの味をお届けします。</p>
+        <div class="hero-links">
+          <a class="primary-link" href="#products">商品を選ぶ</a>
+          <a class="quiet-link" href="/company.html">磯屋について <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image"><img src="/images/products/original-set.png" alt="磯屋のえびせんべい詰め合わせ"></div>
+        <p class="hero-caption"><b>人気 No.1</b><span>磯屋オリジナルセット</span></p>
+      </div>
+    </section>
+
+    <section id="craft" class="sample-values" aria-label="磯屋のこだわり">
+      <article><span>01</span><div><h2>手造り</h2><p>素材の状態を見ながら、丁寧に仕上げます。</p></div></article>
+      <article><span>02</span><div><h2>えびの風味</h2><p>ひと口目から広がる、香ばしい味わい。</p></div></article>
+      <article><span>03</span><div><h2>ご家庭にも贈り物にも</h2><p>いつものお茶うけから、大切な方への一箱まで。</p></div></article>
+    </section>
+
+    <section id="products" class="sample-products-section">
+      <div class="sample-section-title">
+        <div><p>ONLINE STORE</p><h2>商品を選ぶ</h2></div>
+        <p class="section-note">商品価格・在庫は最新情報を表示しています。<br>お届け先入力後、送料を含む合計をご確認いただけます。</p>
+      </div>
+      <div class="sample-filters" aria-label="商品カテゴリー">
+        <span class="active">すべての商品</span><span>定番</span><span>詰め合わせ</span><span>ご家庭用</span>
+      </div>
+      <div id="store-message" class="store-message" role="status">商品を読み込んでいます…</div>
+      <div id="store-products" class="store-grid" aria-label="商品一覧"></div>
+    </section>
+
+    <section class="sample-guide">
+      <div><p class="guide-kicker">はじめての方へ</p><h2>ご注文は、かんたん3ステップ。</h2></div>
+      <ol>
+        <li><b>1</b><span><strong>商品を選ぶ</strong>数量を選びカートへ</span></li>
+        <li><b>2</b><span><strong>お届け先を入力</strong>地域別送料を自動計算</span></li>
+        <li><b>3</b><span><strong>安全にお支払い</strong>Stripe決済画面で確認</span></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="sample-footer">
+    <div><p class="footer-shop">手造りえびせんべい 磯屋</p><p>販売・運営　合同会社 磯屋コマース</p></div>
+    <nav><a href="/shipping.html">送料</a><a href="/privacy.html">プライバシー</a><a href="/law.html">特定商取引法に基づく表記</a></nav>
+    <p class="sample-copyright">© ISOYA COMMERCE</p>
+  </footer>
+  <div class="sample-mobile-cart"><a href="/cart.html">カートを見る <b class="cart-count">0</b></a></div>
+  <script type="module" src="/js/store.js"></script>
+</body>
+</html>
