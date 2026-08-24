@@ -1,6 +1,6 @@
 import { createServer } from "node:http";
 import { createReadStream, existsSync, mkdirSync, appendFileSync } from "node:fs";
-import { extname, join, normalize, resolve } from "node:path";
+import { extname, isAbsolute, join, normalize, relative, resolve } from "node:path";
 import { createHmac, timingSafeEqual } from "node:crypto";
 import { fileURLToPath } from "node:url";
 import {
@@ -225,7 +225,8 @@ async function checkoutStatus(url, res) {
 function serveStatic(url, res) {
   const pathname = decodeURIComponent(url.pathname === "/" ? "/index.html" : url.pathname);
   const file = resolve(PUBLIC, `.${normalize(pathname)}`);
-  if (!file.startsWith(`${PUBLIC}\\`) && file !== PUBLIC) return sendJson(res, 403, { error: "Forbidden" });
+  const relativePath = relative(PUBLIC, file);
+  if (relativePath.startsWith("..") || isAbsolute(relativePath)) return sendJson(res, 403, { error: "Forbidden" });
   if (!existsSync(file)) return sendJson(res, 404, { error: "Not found" });
   res.writeHead(200, { "Content-Type": MIME[extname(file).toLowerCase()] || "application/octet-stream", "X-Content-Type-Options": "nosniff", "Referrer-Policy": "strict-origin-when-cross-origin" });
   createReadStream(file).pipe(res);
